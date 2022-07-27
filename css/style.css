@@ -6,9 +6,6 @@
     box-sizing: border-box;
 }
 
-/* Import Roboto from Google font*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
 /* CSS Custom Font */
 @font-face {
     font-family: "Norse";
@@ -20,7 +17,7 @@
 
 :root {
     /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
-    font-family: "Roboto", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     --bg-light: #F9FAFB;
     --font-light: #FFFFFF;
     --bg-dark: #0E0E0E;
@@ -101,21 +98,18 @@ div.logo-container {
 /* Form section*/
 
 section.form-wrapper {
-    
     max-width: 600px;
 
     border-radius: 0 10px 10px 0;
-    background-color: aqua;
+    background-color: var(--bg-light);
 }
 
 div.form-text {
-    padding: 1rem;
-   
-    
-    text-align: start;
-    
     width: auto;
     margin: 6rem 2rem 1rem 2rem;
+    padding: 1rem;
+
+    text-align: start;
 }
 
 .text p {
@@ -123,17 +117,11 @@ div.form-text {
     font-weight: bold;
 }
 
-div.form-container {
-    padding: 1rem;
-    margin: 0 2rem;
-}
-
 div.form-container p {
     margin-bottom: 2rem;
 }
 
-/* styla form widget e form*/
-
+/* Normalize widgets */
 input, 
 button {
     width: 200px;
@@ -142,18 +130,36 @@ button {
     box-sizing: border-box;
 }
 
+/* Labels above inputs*/
 .widget-wrapper {
     display: flex;
     flex-direction: column;
     margin-bottom: 1rem;
 }
 
+/* Layout 2 X 3 */
 .widget-pair {
     display: flex;
     justify-content: space-between;
 }
 
-button {
-    margin-top: 3rem;
+.inputs-area {
+    padding: 1rem 3rem;
+    
+    background-color: var(--font-light);
+    box-shadow: 5px 5px 5px rgba(0,0,0, 0.1);
 }
 
+label {
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+/* bottone, inputs e stati...*/
+.button-area {
+    padding-left: 3rem;
+}
+
+button {
+    margin: 2rem 0;
+}
