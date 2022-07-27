@@ -132,3 +132,28 @@ div.form-container p {
     margin-bottom: 2rem;
 }
 
+/* styla form widget e form*/
+
+input, 
+button {
+    width: 200px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.widget-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.widget-pair {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    margin-top: 3rem;
+}
+
