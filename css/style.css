@@ -22,6 +22,9 @@
     --bg-dark: #0E0E0E;
     --bg-btn: #569D48;
     --font-light: #FFFFFF;
+    --bd-color: #E5E7EB;
+    --focus-color: #20A0B1;
+    --error-color: #E74C3C;
     --round: 10px;
     --shadow: 10px 10px 10px rgba(0,0,0, 0.4);
 }
@@ -156,11 +159,37 @@ button {
 }
 
 label {
+    margin-bottom: 0.1rem;
+
     text-transform: uppercase;
     font-size: 0.7rem;
     font-weight: bold;
 }
-/* bottone, inputs e stati...*/
+
+input,
+input.psw-valid {
+    border: 1px solid var(--bd-color);
+}
+
+input:focus {
+    outline: var(--focus-color);
+    border: 2px solid var(--focus-color);
+}
+
+input[type="password"].error {
+    border: 2px solid var(--error-color);
+}
+
+
+span.error-message {
+    color: var(--error-color);
+    
+}
+
+span.valid {
+    display: none;
+}
+
 .button-area {
     padding-left: 3rem;
 }
