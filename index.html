@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up Form</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="/js/main.js" defer></script>
 </head>
 <body>
     <main>
@@ -55,7 +56,7 @@
                             <div class="widget-wrapper">
                                 <label for="password">Password</label>
                                 <input type="password" name="password" id="password" class="error">
-                                <span class="error-message"><sub>* Passwords do not match</sub></span>
+                                <span id="error-match" class="error-message"><sub>* Passwords do not match</sub></span>
                             </div>
                             <div class="widget-wrapper">
                                 <label for="confirm-password">Confirm Password</label>
