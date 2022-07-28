@@ -60,7 +60,7 @@ section.logo-wrapper {
     width: 400px;
     max-width: 400px;
     
-    background: url(/img/halie-west-25xggax4bSA-unsplash.jpg) center center no-repeat;
+    background: url(img/halie-west-25xggax4bSA-unsplash.jpg) center center no-repeat;
     background-size: cover;
     border-radius: var(--round) 0 0 var(--round);
 }
