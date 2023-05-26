@@ -7,7 +7,7 @@
 This project is part of [The Odin Project - Full Stack JavaScript Path](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form).
 The goal of this project is not only to use some HTML and CSS intermediate feature, like semantic markup, inputs, CSS variables, pseudo-classes and custom fonts, but also start to develop a work methodology. 
 
-## Tecnologies
+## Technologies
 * HTML
 * CSS
 * JavaScript
